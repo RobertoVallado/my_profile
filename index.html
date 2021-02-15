@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Roberto Vallado" />
+    <meta name="description" content="CSD120 Lab - Personal Website" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <title>Roberto Vallado Bio-Website</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="width-wrap">
+      <header id="top">
+        <nav>
+          <input type="checkbox" name="burger" id="menu-toggle" /><label
+            class="sandwich-icon"
+            for="menu-toggle"
+          ></label>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="links.html">Links</a>
+            </li>
+            <li>
+              <a href="education.html">Education</a>
+            </li>
+            <li>
+              <a href="survey.html">Survey</a>
+            </li>
+            <li>
+              <a href="lorem.html">Lorem</a>
+            </li>
+            <li>
+              <a href="gallery.html">Gallery</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1 class="titulo">Roberto Vallado</h1>
+        <h3 class="subtitulo">Programmer</h3>
+        <div class="bio">
+          <a href="images/profile_.jpg">
+            <img
+              src="images/profile_300.jpg"
+              alt="Roberto Vallado, author."
+              sizes="(max-width:500px) 150px, 275px"
+              srcset="images/profile_150.jpg 150w, images/profile_300.jpg 300w"
+            />
+          </a>
+          <p><b>Welcome!</b></p>
+          <p style="padding-bottom: 1em">
+            An ambition to become a CyberOps professional. Curiosity, passion
+            for learning and hard work enable me to thrive and achieve my goals.
+            Constantly looking for new growth opportunities. Detail oriented
+            with a strong interest in problem solving. Fluent speaker in
+            English, French, Portuguese & Spanish.
+          </p>
+
+          <table>
+            <thead>
+              <tr>
+                <th scope="col" rowspan="2">SKILLS</th>
+              </tr>
+              <tr>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="rowgroup" rowspan="12"></th>
+                <td>Python</td>
+              </tr>
+              <tr>
+                <td>Linux CLI</td>
+              </tr>
+              <tr>
+                <td>JavaScript</td>
+              </tr>
+              <tr>
+                <td>jQuery</td>
+              </tr>
+              <tr>
+                <td>CSS</td>
+              </tr>
+              <tr>
+                <td>HTML5</td>
+              </tr>
+              <tr>
+                <td>Bootstrap</td>
+              </tr>
+              <tr>
+                <td>Node</td>
+              </tr>
+              <tr>
+                <td>Git version control</td>
+              </tr>
+              <tr>
+                <td>Some C++</td>
+              </tr>
+              <tr>
+                <td>Jupyterlab/JupyterNotebook</td>
+              </tr>
+              <tr>
+                <td>LaTeX code</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <br /><br />
+        <h2>More</h2>
+        <div class="favourites">
+          <input type="radio" name="favorito" id="tab_1" />
+          <label for="tab_1"><h3>Lenguajes</h3></label>
+          <div>
+            <h4>Fluent Speaker</h4>
+            <p>English</p>
+            <p>Français</p>
+            <p>Português</p>
+            <p>Español</p>
+          </div>
+          <input type="radio" name="favorito" id="tab_2" />
+          <label for="tab_2"><h3>Editors</h3></label>
+          <div>
+            <ol class="no_bull">
+              <li>
+                <span title="Open-source text and code editor">Atom</span>
+              </li>
+              <li>
+                <span title="Integrated development environment"
+                  >Microsoft Visaul Studio</span
+                >
+              </li>
+              <li>
+                <span title="Microsoft's free code editor"
+                  >Visual Studio Code</span
+                >
+              </li>
+              <li>
+                <span title="Open-source cross-platform IDE">Code::Blocks</span>
+              </li>
+              <li>
+                <span title="Open-source code editor by KDE free software"
+                  >Kate</span
+                >
+              </li>
+            </ol>
+          </div>
+          <input type="radio" name="favorito" id="tab_3" />
+          <label for="tab_3"><h3>Haiku</h3></label>
+          <div>
+            <p>
+              You can achieve it <br />
+              Despite whatever they say <br />
+              Don’t wait too long now <br />
+              <cite>
+                - <span class="author"><b>Anonymous</b> </span>
+              </cite>
+            </p>
+          </div>
+          <input type="radio" name="favorito" id="tab_4" />
+          <label for="tab_4"><h3>Public Domain Audiobook</h3></label>
+          <div>
+            <audio controls>
+              <source
+                src="https://ia800402.us.archive.org/35/items/PauloCoelhoTheAlchemist1Of4/Paulo%20Coelho%20-%20The%20Alchemist%201%20of%204.mp3"
+                type="audio/mp3"
+                lang="en"
+              />
+              <source
+                src="https://ia800402.us.archive.org/35/items/PauloCoelhoTheAlchemist1Of4/Paulo%20Coelho%20-%20The%20Alchemist%201%20of%204.ogg"
+                type="audio/ogg"
+                lang="en"
+              />
+              <p>
+                Your browser doesn't support HTML5 audio. You could
+                <a
+                  href="https://archive.org/download/PauloCoelhoTheAlchemist1Of4/PauloCoelhoTheAlchemist1Of4_archive.torrent"
+                  hreflang="pt"
+                  download
+                  >Download the audio</a
+                >, instead.
+              </p>
+            </audio>
+            <h4>The Alchemist by Paulo Coelho</h4>
+            <p>
+              A young hero with humble beginnings, journeys to foreign lands,
+              and many interesting characters.
+              <br />
+              The hero needs to adapt to every new circumstance, overcome all
+              obstacles and grow in confidence and in possitive attitude, even
+              in the face of failure.
+              <br />...wait, that sounds very familiar; am I still talking about
+              the book?
+            </p>
+          </div>
+          <input type="radio" name="favorito" id="tab_5" />
+          <label for="tab_5"><h3>Smarter</h3></label>
+          <div>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/_OXk4RKZhaY"
+              title="Smarter Every Day - HOW TO LAND IN THE MOON"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            >
+            </iframe>
+            <h4>Smarter Every Day</h4>
+            <p>
+              I have always enjoyed learning from Destin Sandlin and his
+              SmarterEveryDay Youtube channel.
+            </p>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <hr />
+        <blockquote>
+          "The number one skill in life is not giving up."
+          <br />
+          <cite> &#8212; <span class="author">Bryant McGill</span></cite>
+        </blockquote>
+        <p>
+          &copy; 2021
+          <a
+            href="mailto:20017482@saultcollege.ca?subject=Message%20from%20CSD120%20Website"
+            >Roberto Vallado</a
+          >
+        </p>
+        <picture>
+          <source type="image/svg+xml" srcset="images/prog_icon.webp" />
+          <img
+            src="images/prog_icon_70.png"
+            width="60"
+            srcset="
+              images/prog_icon_70.png,
+              images/prog_icon_105.png 1.5x,
+              images/prog_icon_140.png 2x
+            "
+            alt="Programming icon"
+          />
+        </picture>
+      </footer>
+      <a href="#top" title="Back to top">◤</a>
+    </div>
+  </body>
+</html>
